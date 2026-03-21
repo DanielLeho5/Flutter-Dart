@@ -8,7 +8,7 @@ void main(List<String> args) {
   } on FormatException catch (e) { // catch a specific exception
     print(e);
   } catch (e) {
-    print("Error occured: $e");
+    print("Error occured!: $e");
   } finally {
     print("This always executes");
   }
