@@ -64,7 +64,7 @@ void main(List<String> args) {
   // enhanced switch
   switch (born) {
     case true when age >= 18:
-      print("You are an adoult!");
+      print("You are an adult!");
     case false when age < 1:
       print("You haven't been born yet!");
     default:
